@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    background: #f0f0f0;
+  }
+  #navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #ff7300;
+  }
+  ul {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  ul li {
+    list-style: none;
+  }
+  ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    font-size: 0.875em;
+    text-decoration: none;
+    padding: 1em;
+    white-space: nowrap;
+    letter-spacing: 1px;
+  }
+  ul li a:hover {
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: 0 0 20px gold;
+  }
+  
+  #welcome-section {
+    min-height: 100vh;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(rgba(10, 10, 220, 0.2), hsla(248, 96%, 55%, 0.1)),
+      url("http://2.bp.blogspot.com/-lenVwgN5vEs/Tb7r9TjW2TI/AAAAAAAABCI/MuNVx63IzZI/s1600/Maharashtra_2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #info {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 700;
+  }
+  
+  #info p {
+    font-size: 1.5em;
+    line-height: 1.3em;
+  }
+  
+  .recepies {
+    background: linear-gradient(to left, lightblue, white);
+    min-height: 100%;
+    text-align: center;
+    padding: 2.5rem 0 5.5rem 0;
+  }
+  img {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .recepies h2 {
+    color: #909090;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 900;
+  }
+  
+  .recepies a {
+    text-decoration: none;
+  }
+  
+  .parent {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .child {
+    background: #fff;
+    box-shadow: 30px 20px 40px -14px rgba(0, 0, 0, 0.25);
+  }
+  
+  .title {
+    color: black;
+    padding: 16px;
+    letter-spacing: 0.05em;
+    text-align: left;
+  }
+  
+  .recepies p {
+    font-size: 14px;
+    color: brown;
+    line-height: 1.3em;
+    letter-spacing: 0.05em;
+    text-align: left;
+    padding: 0 1em;
+  }
+  
